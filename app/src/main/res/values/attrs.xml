@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SlideCenterButton">
+        <attr name="centerSnakeRadius" format="dimension|integer"/>
+        <attr name="centerSnakeColor" format="color|integer"/>
+        <!--初始按钮左边的文字-->
+        <attr name="buttonInitLeftText" format="string|integer"/>
+        <!--初始按钮右边的文字-->
+        <attr name="buttonInitRightText" format="string|integer"/>
+        <!--中间的文字大小-->
+        <attr name="buttonInnerTextSize" format="dimension|integer"/>
+        <!--中间文字的颜色-->
+        <attr name="buttonInnerTextColor" format="color|integer"/>
+        <!--背景颜色-->
+        <attr name="buttonBackgroundColor" format="color|integer"/>
+        <!--中间按钮上部的颜色-->
+        <attr name="centerSnakeBarTopText" format="string|integer"/>
+        <!--中间按钮下部的颜色-->
+        <attr name="centerSnakeBarBottomText" format="string|integer"/>
+        <!--中间按钮文字的大小-->
+        <attr name="centerSnakeBarTextSize" format="dimension|integer"/>
+        <!--中间按钮文字的颜色-->
+        <attr name="centerSnakeBarTextColor" format="color|integer"/>
+        <!--按钮的类型，按钮是在中间，还是在左边-->
+        <attr name="centerButtonType">
+            <enum name="center" value="1"/>
+            <enum name="left" value="2"/>
+        </attr>
+        <!--滑动中间按钮后左边需要改变的文字-->
+        <attr name="buttonChangeLeftText" format="string|integer"/>
+        <!--滑动中间按钮后右边需要改变的文字-->
+        <attr name="buttonChangeRightText" format="string|integer"/>
+        <!--阴影的大小-->
+        <attr name="buttonShadowRadius" format="dimension|integer"/>
+
+
+    </declare-styleable>
+</resources>
